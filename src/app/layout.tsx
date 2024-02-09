@@ -1,10 +1,8 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { rubik } from '@/app/lib/fonts';
 import './globals.css';
 
 import Header from '@/app/components/Header';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: 'Brandon Gormley | Dev',
@@ -18,7 +16,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang='en'>
-            <body className={inter.className}>
+            <body className={rubik.className}>
                 <Header />
                 {children}
             </body>
