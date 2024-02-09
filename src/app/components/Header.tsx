@@ -15,7 +15,7 @@ export default function Header() {
             </Link>
             <p className='mr-auto ml-1 self-end text-xs'>.dev</p>
             <nav className='flex flex-row justify-center items-center text-sm '>
-                <ul className='flex flex-row justify-center items-center hover:border-cyan-100 hover:shadow-md shadow transition-all duration-200 rounded-lg p-2'>
+                <ul className='flex flex-row justify-center items-center shadow hover:shadow-md transition-all duration-200 rounded-lg p-2'>
                     <li className='mx-2'>
                         <Link
                             className='hover:text-cyan-500 font-medium transition-all duration-100'
