@@ -19,14 +19,6 @@ export default function Header() {
                     <li className='mx-2'>
                         <Link
                             className='hover:text-cyan-500 font-medium transition-all duration-100'
-                            href={'/about'}
-                        >
-                            About
-                        </Link>
-                    </li>
-                    <li className='mx-2'>
-                        <Link
-                            className='hover:text-cyan-500 font-medium transition-all duration-100'
                             href={'/projects'}
                         >
                             Projects
