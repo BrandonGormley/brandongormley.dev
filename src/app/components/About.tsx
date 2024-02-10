@@ -21,9 +21,14 @@ export default function About() {
                         Front End Developer
                     </p>
                     <p className='text-gray-800 text-lg font-light lg:my-4 leading-loose large:text-xl'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Ea provident accusantium eveniet, blanditiis
-                        repudiandae minus quis quia ab consequatur harum.
+                        I&apos;m a tech enthusiast who&apos;s captivated by its
+                        transformative impact on our world. My journey&apos;s
+                        been shaped by a passion for health and fitness,
+                        unlocking numerous opportunities along the way. Oh, and
+                        coffee? Count me in! <br />
+                        <br />
+                        Plus, I&apos;m a big family guy at heart, cherishing
+                        every moment with loved ones.
                     </p>
                     <SocialBar />
                 </div>
