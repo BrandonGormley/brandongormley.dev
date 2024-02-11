@@ -11,7 +11,7 @@ export default function SocialBar() {
         <div className='flex my-6'>
             <a
                 href='https://www.linkedin.com/in/brandontgormley/'
-                className='mx-2'
+                className='mr-2'
             >
                 <IoLogoLinkedin className='hover:text-[#0077b5] text-gray-400 h-7 w-7 duration-200 transition-all' />
             </a>
