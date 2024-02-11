@@ -15,7 +15,7 @@ export default function ProjectCard({
 }: ProjectCardProps) {
     return (
         <div className='flex flex-col p-6 rounded-lg w-full md:max-w-[50%] lg:max-w-[33%] hover:shadow-md transition-all my-4 md:mx-4'>
-            <div className='bg-gray-300 h-10 w-10 rounded-full'></div>
+            <Image src={imageUrl} height={30} width={30} alt='Project Logo' />
             <p className='text-sm text-gray-500 my-4 leading-relaxed '>
                 {description}
             </p>
