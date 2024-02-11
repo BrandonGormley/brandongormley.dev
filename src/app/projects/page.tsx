@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import ProjectCard from '@/app/components/ui/ProjectCard';
 
 export default function page() {
