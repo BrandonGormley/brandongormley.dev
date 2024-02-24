@@ -1,4 +1,11 @@
+import type { Metadata } from 'next';
 import SkillBar from '../components/ui/SkillBar';
+
+export const metadata: Metadata = {
+    title: 'Brandon Gormley | Skills',
+    description:
+        'Dive into the core of my expertise with a comprehensive list of coding skills meticulously crafted over years of dedicated learning and practice. From front-end languages like HTML, CSS, and JavaScript to back-end frameworks like Node.js and Express, my skillset is finely tuned to tackle any development challenge with precision and creativity. Explore the building blocks of my digital toolkit and discover how each skill contributes to my ability to bring ideas to life in the digital realm.',
+};
 
 export default function page() {
     return (
