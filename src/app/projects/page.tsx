@@ -1,4 +1,11 @@
+import type { Metadata } from 'next';
 import ProjectCard from '@/app/components/ui/ProjectCard';
+
+export const metadata: Metadata = {
+    title: 'Brandon Gormley | Projects',
+    description:
+        'Expore my digital playground where creativity meets functionality. From web wonders to mobile marvels, each project in my personal development portfolio reflects my unique blend of passion and proficiency in coding. Join me on this journey of innovation and exploration as I transform ideas into user-friendly realities, one line of code at a time.',
+};
 
 export default function page() {
     return (
