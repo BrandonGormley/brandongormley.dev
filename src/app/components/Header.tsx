@@ -4,16 +4,13 @@ import Image from 'next/image';
 export default function Header() {
     return (
         <header className='flex flex-row p-4 py-8 lg:p-6 w-full justify-between items-center max-w-[1280px] mx-auto'>
-            <Link href='/'>
-                <Image
-                    src='/profile.jpeg'
-                    width={50}
-                    height={50}
-                    alt='profile image'
-                    className='rounded-full'
-                />
+            <Link
+                className='mr-auto ml-1 self-end text-xs font-semibold hover:text-cyan-500 transition-all duration-200 '
+                href='/'
+            >
+                brandongormley.dev
             </Link>
-            <p className='mr-auto ml-1 self-end text-xs'>.dev</p>
+
             <nav className='flex flex-row justify-center items-center text-sm '>
                 <ul className='flex flex-row justify-center items-center shadow hover:shadow-md transition-all duration-200 rounded-lg p-2'>
                     <li className='mx-2'>
