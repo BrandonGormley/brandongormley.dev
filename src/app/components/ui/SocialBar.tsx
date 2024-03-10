@@ -5,6 +5,7 @@ import {
     IoLogoYoutube,
     IoLogoTwitter,
 } from 'react-icons/io5';
+import { FaXTwitter } from 'react-icons/fa6';
 
 export default function SocialBar() {
     return (
@@ -31,11 +32,11 @@ export default function SocialBar() {
                 <IoLogoYoutube className='hover:text-[#FF0000] text-gray-400 h-7 w-7 duration-200 transition-all' />
             </a>
             <a
-                href='https://twitter.com/BrandonGormley'
+                href='https://x.com/BrandonGormley'
                 className='mx-2'
                 target='_blank'
             >
-                <IoLogoTwitter className='hover:text-[#1DA1F2] text-gray-400 h-7 w-7 duration-200 transition-all' />
+                <FaXTwitter className='hover:text-[#1DA1F2] text-gray-400 h-7 w-7 duration-200 transition-all' />
             </a>
             <a
                 href='https://github.com/BrandonGormley'
