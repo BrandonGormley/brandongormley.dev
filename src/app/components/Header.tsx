@@ -5,17 +5,18 @@ export default function Header() {
     return (
         <header className='flex flex-row p-4 py-8 lg:p-6 w-full justify-between items-center max-w-[1280px] mx-auto'>
             <Link
-                className='mr-auto ml-1 self-end text-xs font-semibold hover:text-cyan-500 transition-all duration-200 '
+                className='mr-auto ml-1 self-end text-sm font-medium hover:text-emerald-500 transition-all duration-200'
                 href='/'
             >
-                brandongormley.dev
+                B<span className='font-light'>randon</span>G
+                <span className='font-light'>ormley</span>
             </Link>
 
             <nav className='flex flex-row justify-center items-center text-sm '>
                 <ul className='flex flex-row justify-center items-center shadow hover:shadow-md transition-all duration-200 rounded-lg p-2'>
                     <li className='mx-2'>
                         <Link
-                            className='hover:text-cyan-500 font-medium transition-all duration-100'
+                            className='hover:text-emerald-500 font-medium transition-all duration-100'
                             href={'/projects'}
                         >
                             Projects
@@ -23,7 +24,7 @@ export default function Header() {
                     </li>
                     <li className='mx-2'>
                         <Link
-                            className='hover:text-cyan-500 font-medium transition-all duration-100'
+                            className='hover:text-emerald-500 font-medium transition-all duration-100'
                             href={'/skills'}
                         >
                             Skills
