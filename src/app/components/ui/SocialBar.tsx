@@ -36,7 +36,7 @@ export default function SocialBar() {
                 className='mx-2'
                 target='_blank'
             >
-                <FaXTwitter className='hover:text-[#1DA1F2] text-gray-400 h-7 w-7 duration-200 transition-all' />
+                <FaXTwitter className='hover:text-black text-gray-400 h-7 w-7 duration-200 transition-all' />
             </a>
             <a
                 href='https://github.com/BrandonGormley'
