@@ -27,6 +27,12 @@ export default function page() {
                         repoUrl='https://github.com/BrandonGormley/park-passport'
                         prodUrl='https://park-passport.vercel.app/'
                     />
+                    <ProjectCard
+                        imageUrl='/dreamdisneyai.png'
+                        description='Dream Disney AI is a web application that will use ai to create a vacation plan for any disney vacation you plan on taking.'
+                        repoUrl='https://github.com/BrandonGormley/dreamdisneyai'
+                        prodUrl='https://dreamdisneyai.vercel.app/'
+                    />
                 </div>
             </div>
         </section>
