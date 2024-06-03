@@ -14,7 +14,7 @@ export default function page() {
                 <div className='flex flex-col md:flex-row w-full'>
                     <ProjectCard
                         imageUrl='/nova-logo.png'
-                        description='A blog site to create or share interesting ideas, fostering
+                        description='Nova - A blog site to create or share interesting ideas, fostering
                 creativity and collaboration.'
                         repoUrl='https://github.com/BrandonGormley/nova'
                         prodUrl='https://nova-bg.vercel.app/'
