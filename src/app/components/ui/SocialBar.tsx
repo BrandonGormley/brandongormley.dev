@@ -32,13 +32,6 @@ export default function SocialBar() {
                 <IoLogoYoutube className='hover:text-[#FF0000] text-gray-400 h-7 w-7 duration-200 transition-all' />
             </a>
             <a
-                href='https://x.com/BrandonGormley'
-                className='mx-2'
-                target='_blank'
-            >
-                <FaXTwitter className='hover:text-black text-gray-400 h-7 w-7 duration-200 transition-all' />
-            </a>
-            <a
                 href='https://github.com/BrandonGormley'
                 className='mx-2'
                 target='_blank'

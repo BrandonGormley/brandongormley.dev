@@ -13,11 +13,10 @@ export default function page() {
             <div className='flex flex-col my-12 p-4 py-8'>
                 <div className='flex flex-col md:flex-row w-full'>
                     <ProjectCard
-                        imageUrl='/nova-logo.png'
-                        description='Nova - A blog site to create or share interesting ideas, fostering
-                creativity and collaboration.'
-                        repoUrl='https://github.com/BrandonGormley/nova'
-                        prodUrl='https://nova-bg.vercel.app/'
+                        imageUrl='/croiss-logo.png'
+                        description='Croiss is a web/mobile applicaton that allows users to enjoy & feel rewarded for saving money & investing.'
+                        repoUrl='https://github.com/BrandonGormley/croiss'
+                        prodUrl='https://croiss.vercel.app/'
                     />
                     <ProjectCard
                         imageUrl='/parkpassport.png'
@@ -26,12 +25,6 @@ export default function page() {
                         before traveling there.'
                         repoUrl='https://github.com/BrandonGormley/park-passport'
                         prodUrl='https://park-passport.vercel.app/'
-                    />
-                    <ProjectCard
-                        imageUrl='/dreamdisneyai.png'
-                        description='Dream Disney AI is a web application that will use ai to create a vacation plan for any disney vacation you plan on taking.'
-                        repoUrl='https://github.com/BrandonGormley/dreamdisneyai'
-                        prodUrl='https://dreamdisneyai.vercel.app/'
                     />
                 </div>
             </div>
