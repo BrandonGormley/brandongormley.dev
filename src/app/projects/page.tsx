@@ -14,9 +14,13 @@ export default function page() {
                 <div className='flex flex-col md:flex-row w-full'>
                     <ProjectCard
                         imageUrl='/croiss-logo.png'
-                        description='Croiss is a web/mobile applicaton that allows users to enjoy & feel rewarded for saving money & investing.'
-                        repoUrl='https://github.com/BrandonGormley/croiss'
+                        description='Croiss is a web/PWA applicaton that allows users to enjoy & feel rewarded for saving money.'
                         prodUrl='https://croiss.vercel.app/'
+                    />
+                    <ProjectCard
+                        imageUrl='/miri-logo.png'
+                        description='Miri is an AI assitant to help you brain dump your schedule, and output a structured easy to glance schedule.'
+                        prodUrl='https://miriai.vercel.app/'
                     />
                     <ProjectCard
                         imageUrl='/parkpassport.png'

@@ -3,7 +3,7 @@ import Image from 'next/image';
 interface ProjectCardProps {
     imageUrl: string;
     description: string;
-    repoUrl: string;
+    repoUrl?: string;
     prodUrl: string;
 }
 
@@ -20,13 +20,15 @@ export default function ProjectCard({
                 {description}
             </p>
             <div className='flex flex-row '>
-                <a
-                    target='_blank'
-                    href={repoUrl}
-                    className='text-gray-400 text-xs hover:text-gray-900 mr-4 transition-all'
-                >
-                    Github Repo
-                </a>
+                {repoUrl && (
+                    <a
+                        target='_blank'
+                        href={repoUrl}
+                        className='text-gray-400 text-xs hover:text-gray-900 mr-4 transition-all'
+                    >
+                        Github Repo
+                    </a>
+                )}
                 <a
                     target='_blank'
                     href={prodUrl}
