@@ -13,14 +13,14 @@ export default function page() {
             <div className='flex flex-col my-12 p-4 py-8'>
                 <div className='flex flex-col md:flex-row w-full'>
                     <ProjectCard
-                        imageUrl='/croiss-logo.png'
-                        description='Croiss is a web/PWA applicaton that allows users to enjoy & feel rewarded for saving money.'
-                        prodUrl='https://croiss.vercel.app/'
+                        imageUrl='/rootstory-logo.webp'
+                        description='Rootstory is a web based app where every life has a story. Keep yours connected. Build your family tree, gather the photographs, and keep the little stories that make your family yours.'
+                        prodUrl='https://rootstory.me/'
                     />
                     <ProjectCard
-                        imageUrl='/miri-logo.png'
-                        description='Miri is an AI assitant to help you brain dump your schedule, and output a structured easy to glance schedule.'
-                        prodUrl='https://miriai.vercel.app/'
+                        imageUrl='/croiss-logo.png'
+                        description='Croiss is a web based app that allows users to enjoy & feel rewarded for saving money.'
+                        prodUrl='https://croiss.vercel.app/'
                     />
                     <ProjectCard
                         imageUrl='/parkpassport.png'

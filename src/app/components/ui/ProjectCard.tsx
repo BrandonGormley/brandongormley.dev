@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { FaGithub, FaLaptop } from 'react-icons/fa';
 
 interface ProjectCardProps {
     imageUrl: string;
@@ -14,8 +15,8 @@ export default function ProjectCard({
     prodUrl,
 }: ProjectCardProps) {
     return (
-        <div className='flex flex-col p-6 rounded-lg w-full md:max-w-[50%] lg:max-w-[33%] hover:shadow-md transition-all my-4 md:mx-4'>
-            <Image src={imageUrl} height={30} width={30} alt='Project Logo' />
+        <div className='flex flex-col align-baseline p-6 rounded-lg w-full md:max-w-[50%] lg:max-w-[33%] hover:shadow-md transition-all my-2 md:mx-4'>
+            <Image src={imageUrl} height={40} width={40} alt='Project Logo' />
             <p className='text-sm text-gray-500 my-4 leading-relaxed '>
                 {description}
             </p>
@@ -24,17 +25,17 @@ export default function ProjectCard({
                     <a
                         target='_blank'
                         href={repoUrl}
-                        className='text-gray-400 text-xs hover:text-gray-900 mr-4 transition-all'
+                        className='text-gray-400 text-xl hover:text-gray-900 mr-4 transition-all'
                     >
-                        Github Repo
+                        <FaGithub />
                     </a>
                 )}
                 <a
                     target='_blank'
                     href={prodUrl}
-                    className='text-gray-400 mr-2 text-xs hover:text-gray-900 transition-all'
+                    className='text-gray-400 mr-2 text-xl hover:text-gray-900 transition-all'
                 >
-                    Production
+                    <FaLaptop />
                 </a>
             </div>
         </div>
