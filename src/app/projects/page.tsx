@@ -13,9 +13,9 @@ export default function page() {
             <div className='flex flex-col my-12 p-4 py-8'>
                 <div className='flex flex-col md:flex-row w-full'>
                     <ProjectCard
-                        imageUrl='/rootstory-logo.webp'
-                        description='Rootstory is a web based app where every life has a story. Keep yours connected. Build your family tree, gather the photographs, and keep the little stories that make your family yours.'
-                        prodUrl='https://rootstory.me/'
+                        imageUrl='/kynro-logo.webp'
+                        description='Kynro is a web based app where every life has a story. Keep yours connected. Build your family tree, gather the photographs, and keep the little stories that make your family yours.'
+                        prodUrl='https://kynro.me/'
                     />
                     <ProjectCard
                         imageUrl='/croiss-logo.png'
